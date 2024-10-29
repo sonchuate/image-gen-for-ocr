@@ -1,0 +1,9 @@
+# Tạo dataset cho model VietOCR
+- mở folder textrecognitiondatagenerator-master
+- Tạo conda môi trường python 3.7
+- pip install -r requirements.txt
+- vào CMD.txt để xem lệnh chạy 
+
+# bổ sung
+- tải thêm font chữ move vào thư mục trdg/fonts/vie
+- Đã sửa file run.py để định dạng output file label.txt giống với định dạng yêu cầu của tập train và test VietOCR 

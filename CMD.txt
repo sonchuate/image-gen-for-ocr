@@ -1,0 +1,9 @@
+python run.py --output_dir output/image/ -i texts/input.txt -c 3000 -l vi -t 4 -e png -b 1 --font_dir fonts/vie -na 2
+
+# --output_dir
+# -c : số lượng ảnh gen ra
+# -l : language
+# -t : number of threads
+# --font_dir: đường dẫn đến file font chữ tiếng việt
+# -na: Define how the produced files will be named. 
+        0: [TEXT]_[ID].[EXT], 1: [ID]_[TEXT].[EXT] 2: [ID].[EXT] + one file labels.txt containing id-to-label mappings
